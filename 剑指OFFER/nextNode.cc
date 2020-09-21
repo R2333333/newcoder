@@ -33,7 +33,7 @@ public:
         }
 
         if (!pNode->next)
-            return pNode;
+            return NULL;
 
         if (pNode->next->left == pNode)
             return pNode->next;
